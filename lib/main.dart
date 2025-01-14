@@ -45,7 +45,13 @@ void main() async {
   SharedData sharedData = SharedData();
   if (sharedData.isFirst) {
     String lang = (await Devicelocale.currentLocale ?? "en").substring(0, 2);
-    sharedData.setAppLang(lang);
+    final langs = ["de", "en", "es", "fr", "it", "nl", "pt", "ru", "tr"];
+
+    if (langs.contains(lang)) {
+      sharedData.setAppLang(lang);
+    }else{
+      sharedData.setAppLang("en");
+    }
     Hive.box<String>("appLangBox").put("appLang", lang);
   }
   sharedData.setTexts(textsJson);
