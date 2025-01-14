@@ -1,0 +1,2 @@
+D:/trivi_app/android/app/.cxx/RelWithDebInfo/5wz3x3o1/x86/CMakeFiles/edit_cache.dir
+D:/trivi_app/android/app/.cxx/RelWithDebInfo/5wz3x3o1/x86/CMakeFiles/rebuild_cache.dir

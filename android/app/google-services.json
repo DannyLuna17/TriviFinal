@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656676613197",
+    "project_id": "triviai-22615",
+    "storage_bucket": "triviai-22615.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656676613197:android:5b9bfe91eb53ab79518004",
+        "android_client_info": {
+          "package_name": "com.dannyluna.trivi_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApjgFNSVGrlrd486Z0Cqo_oM8t2zP5QVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
